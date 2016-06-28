@@ -9,4 +9,10 @@ tasks:
 - id: 3
   title: laundry
   description: bring laundry upstairs and put away
-total: 3
+- id: 4
+  title: Groceries
+  description: "Rice\r\nBananas\r\nCereal"
+- id: 5
+  title: Target
+  description: "buy new socks\r\n"
+total: 10

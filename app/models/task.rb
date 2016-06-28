@@ -6,4 +6,9 @@ class Task
     @title = data["title"]
     @description = data["description"]
   end
+
+  def title_check
+    title == "" ? "Mystery Task" : title
+  end
+
 end
