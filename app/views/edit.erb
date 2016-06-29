@@ -1,0 +1,9 @@
+<form action="/tasks/<%= @task.id %>" method="post">
+ <p> Edit </p>
+ <input type="hidden" name="_method" value="PUT">
+ <input type="text" name="task[title]" value="<%= @task.title %>">
+ <textarea name="task[description]" value=""><%= @task.description %></textarea>
+ <input type="submit">
+
+<!-- task[title] taken from params hash-->
+</form>
